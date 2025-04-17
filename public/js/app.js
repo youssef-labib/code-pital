@@ -81,7 +81,7 @@ class Patients {
                     cemetery.people.push(this)
                     // pharmacy.patient.splice(this, 1)
                     this.healthState = "Dead 💀"
-                    console.log("RIP 💀");
+                    console.log(`${this.name} can't pay for the medicine and he died.`);
                     break;
                 }
             } 
@@ -212,6 +212,8 @@ console.table(Marcus);
 // console.table(Debugger.waitingroom);
 
 console.log("\n");
+console.log("********************************");
+console.log("\n");
 
 //& Optimus
 
@@ -231,9 +233,11 @@ Optimus.pay("Unsave")
 
 console.table(Optimus);
 
-console.table(Debugger.office);
-console.table(Debugger.waitingroom);
+// console.table(Debugger.office);
+// console.table(Debugger.waitingroom);
 
+console.log("\n");
+console.log("********************************");
 console.log("\n");
 
 //& Sangoku
@@ -258,6 +262,8 @@ console.table(Sangoku);
 // console.table(Debugger.waitingroom);
 
 console.log("\n");
+console.log("********************************");
+console.log("\n");
 
 //& DarthVader
 
@@ -280,6 +286,8 @@ console.table(DarthVader);
 // console.table(Debugger.office);
 // console.table(Debugger.waitingroom);
 
+console.log("\n");
+console.log("********************************");
 console.log("\n");
 
 //& Semicolon
